@@ -16,8 +16,8 @@ namespace Acme.Common.Tests
             var actual = email.SendMessage("Test Message",
                 "This is a test message", "abc@abc.com");
 
-            // Assert
-            Assert.AreEqual(expected, actual); 
+            // Assert, test this result
+            Assert.AreEqual(expected, actual);            
         }
     }
 }
