@@ -17,7 +17,7 @@ namespace Acme.Common.Tests
                 "This is a test message", "abc@abc.com");
 
             // Assert
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual(expected, actual); 
         }
     }
 }
